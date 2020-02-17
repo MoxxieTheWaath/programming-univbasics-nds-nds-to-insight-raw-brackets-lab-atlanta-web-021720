@@ -22,8 +22,8 @@ def directors_totals(nds)
   directorsNum = 0
   movieNum = 0
   price = 0
-  while directorsNum < directors_database.count do
-    while movieNum < directors_database[directorsNum].length do
+  while directorsNum < nds.count do
+    while movieNum < nds[directorsNum].length do
       movieNum += 1
     end
     directorsNum += 1
