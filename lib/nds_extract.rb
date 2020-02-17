@@ -29,5 +29,5 @@ def directors_totals(nds)
     i += 1
   end
 #  print i
-  print b
+print directors_database[0].count
 end
