@@ -29,5 +29,5 @@ def directors_totals(nds)
     directorsNum += 1
   end
 
-pp nds[0][0]
+print pp nds[0][0]
 end
