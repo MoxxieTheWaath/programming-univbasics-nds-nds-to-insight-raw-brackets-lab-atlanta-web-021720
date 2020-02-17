@@ -23,7 +23,7 @@ def directors_totals(nds)
   movieNum = 0
   price = 0
   while directorsNum < nds.count do
-    while movieNum < nds[directorsNum][:movies].length do
+    while movieNum < nds[directorsNum][:movies].count do
       #puts nds[directorsNum][:movies]
       movieNum += 1
     end
