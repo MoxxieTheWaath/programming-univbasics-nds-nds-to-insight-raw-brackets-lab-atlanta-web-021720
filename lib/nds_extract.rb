@@ -30,5 +30,5 @@ def directors_totals(nds)
   end
 #  print i
 #print
-print directors_database[0].length
+print nds[0].length
 end
