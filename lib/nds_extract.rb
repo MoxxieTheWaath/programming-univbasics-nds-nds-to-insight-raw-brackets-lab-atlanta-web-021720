@@ -21,10 +21,11 @@ def directors_totals(nds)
   #pp directors_database
   directorsNum = 0
   movieNum = 0
+  totalPerMovie = 0
   price = 0
   while directorsNum < nds.count do
     while movieNum < nds[directorsNum][:movies].count-1 do
-      #puts nds[directorsNum][:movies]
+      
       movieNum += 1
     end
     directorsNum += 1
