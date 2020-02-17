@@ -28,7 +28,6 @@ def directors_totals(nds)
     end
     directorsNum += 1
   end
-#  print i
-#print
-print nds[0].length
+
+pp nds[0]
 end
