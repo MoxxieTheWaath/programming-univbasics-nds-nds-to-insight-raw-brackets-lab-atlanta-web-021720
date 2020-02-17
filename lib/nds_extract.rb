@@ -19,6 +19,9 @@ def directors_totals(nds)
   #
   # Be sure to return the result at the end!
   #pp directors_database
-  directorKey = directors_database[:name]
-  print directorKey
+  i = 0
+  while i < directors_database.count do
+    i += 1
+  end
+  print i
 end
