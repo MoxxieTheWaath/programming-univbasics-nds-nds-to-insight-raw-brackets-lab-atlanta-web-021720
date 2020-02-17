@@ -23,11 +23,12 @@ def directors_totals(nds)
   b = 0
   price = 0
   while i < directors_database.count do
-    while b < directors_database[i].count do
+    while b < directors_database[i].length do
       b += 1
     end
     i += 1
+    print b
   end
 #  print i
-print directors_database[0]
+#print 
 end
