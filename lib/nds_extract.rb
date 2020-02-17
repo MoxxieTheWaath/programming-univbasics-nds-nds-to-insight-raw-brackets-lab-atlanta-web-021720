@@ -29,5 +29,5 @@ def directors_totals(nds)
     directorsNum += 1
   end
 
-print pp nds[0][:movies]
+print pp nds[0][:movies].length
 end
