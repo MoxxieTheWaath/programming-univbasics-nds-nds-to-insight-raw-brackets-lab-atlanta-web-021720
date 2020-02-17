@@ -26,5 +26,5 @@ def directors_totals(nds)
     
     i += 1
   end
-  print b
+  print i
 end
