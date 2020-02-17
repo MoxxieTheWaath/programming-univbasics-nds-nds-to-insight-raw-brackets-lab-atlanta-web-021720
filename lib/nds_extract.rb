@@ -19,6 +19,6 @@ def directors_totals(nds)
   #
   # Be sure to return the result at the end!
   #pp directors_database
-  directorKey = directors_database[0]
+  directorKey = directors_database[:name]
   print directorKey
 end
