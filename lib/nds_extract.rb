@@ -19,16 +19,16 @@ def directors_totals(nds)
   #
   # Be sure to return the result at the end!
   #pp directors_database
-  i = 0
-  b = 0
+  directorsNum = 0
+  movieNum = 0
   price = 0
   while i < directors_database.count do
     while b < directors_database[i].length do
       b += 1
     end
     i += 1
-    print b
   end
 #  print i
-#print 
+#print
+directors_database[0].length
 end
