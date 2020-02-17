@@ -29,5 +29,5 @@ def directors_totals(nds)
     end
     directorsNum += 1
   end
-print nds[directorsNum][:movies]
+print nds[0][:movies]
 end
