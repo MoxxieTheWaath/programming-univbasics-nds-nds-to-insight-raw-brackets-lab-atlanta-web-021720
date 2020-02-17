@@ -30,5 +30,4 @@ def directors_totals(nds)
     directorsNum += 1
   end
 
-print movieNum
 end
