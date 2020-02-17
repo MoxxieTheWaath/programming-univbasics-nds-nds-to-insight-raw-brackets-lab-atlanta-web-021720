@@ -18,7 +18,7 @@ def directors_totals(nds)
   #
   #
   # Be sure to return the result at the end!
- ## pp directors_database
+  pp directors_database
   i = 0
   price = 0
   while i < directors_database.count do
