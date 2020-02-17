@@ -20,9 +20,10 @@ def directors_totals(nds)
   # Be sure to return the result at the end!
   pp directors_database
   i = 0
+  b = 0
   price = 0
   while i < directors_database.count do
-    b = 0
+
     while b < directors_database[i].count do
       b += 1
     end
